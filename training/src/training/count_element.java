@@ -11,7 +11,7 @@ public class count_element {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\hp\\eclipse-workspace\\training\\exe\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\hp\\git\\Java_Training_selinium\\training\\exe\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.get("https://www.amazon.com/");
 		List<WebElement> e=d.findElements(By.tagName("a"));
